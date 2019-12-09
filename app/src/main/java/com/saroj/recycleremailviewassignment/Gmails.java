@@ -5,15 +5,15 @@ import java.util.Date;
 public class Gmails {
 
     private String name;
-    private String phoneNo;
+    private String message;
     private int imageId;
     private String data;
 
-    public Gmails(String name, String phoneNo, int imageId, String data) {
+    public Gmails(String name, String message, int imageId, String data) {
         this.name = name;
-        this.phoneNo = phoneNo;
+        this.message = message;
         this.imageId = imageId;
-        this.data= data;
+        this.data = data;
     }
 
     public String getName() {
@@ -24,12 +24,12 @@ public class Gmails {
         this.name = name;
     }
 
-    public String getPhoneNo() {
-        return phoneNo;
+    public String getMessage() {
+        return message;
     }
 
-    public void setPhoneNo(String phoneNo) {
-        this.phoneNo = phoneNo;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public int getImageId() {

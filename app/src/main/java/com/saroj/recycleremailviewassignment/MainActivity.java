@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         recyclerView=findViewById(R.id.recyclerView);
         List<Gmails> gmailsList =new ArrayList<>();
-        gmailsList.add(new Gmails("Tony Kroos","00000",R.drawable.football,"21:00"));
-        gmailsList.add(new Gmails("Iker Casillas","00000",R.drawable.volleyball,"10:38"));
-        gmailsList.add(new Gmails("Marcelo","00000",R.drawable.basketball,"15:20"));
+        gmailsList.add(new Gmails("Obama","This is test message",R.drawable.obama,"21:00"));
+        gmailsList.add(new Gmails("Trump","This is test message",R.drawable.trump,"10:38"));
+        gmailsList.add(new Gmails("Newton","This is test message",R.drawable.newton,"15:20"));
 
         GmailAdapter gmailAdapter =new GmailAdapter(this, gmailsList);
         recyclerView.setAdapter(gmailAdapter);

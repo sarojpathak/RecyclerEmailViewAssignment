@@ -35,7 +35,7 @@ public class GmailAdapter extends RecyclerView.Adapter<GmailAdapter.ContactViewH
         Gmails gmails = gmailsList.get(position);
         holder.imageView.setImageResource(gmails.getImageId());
         holder.textView.setText(gmails.getName());
-        holder.textView2.setText(gmails.getPhoneNo());
+        holder.textView2.setText(gmails.getMessage());
         holder.textView3.setText(gmails.getData());
 
     }
